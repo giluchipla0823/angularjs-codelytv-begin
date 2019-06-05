@@ -1,0 +1,9 @@
+# create package.json
+npm init -y
+
+# Preparado para carga de módulos JS ES2015
+npm i -S babel-core babel-loader
+
+Añadiendo Loaders para cargar CSS/HTML desde JS
+Instalamos los modulos que necesitamos con 
+npm i -S css-loader raw-loader style-loader extract-text-webpack-plugin
